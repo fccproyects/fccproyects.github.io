@@ -1,0 +1,48 @@
+html {
+  background-color: #0a0a23;
+  font-family: 'Roboto Mono', monospace;
+  overflow-x: hidden;
+  font-size: 62.5%; /* font-size reset*/
+}
+
+body {
+  margin: 0;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container-90 {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  max-width: 100rem;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 2rem;
+  font-size: 3rem;
+}
+
+p {
+  color: #fff;
+  line-height: 1.8;
+  font-size: 2.2rem;
+}
+
+a {
+  color: #d0d0d5;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
