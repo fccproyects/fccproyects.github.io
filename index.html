@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>FCC Projects</title>
+    <title>FCC Journey</title>
+
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/7e906d0a7d.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- google-fonts -->
     <link
@@ -15,83 +21,160 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <div class="container-75">
-      <header class="header">
-        <h1>FCC Projects Site</h1>
+    <header class="site-header">
+      <div class="container">
+        <h1>
+          This site contains the projects of
+          <a href="https://github.com/JoelEncinas">Joel</a> done at
+          <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>
+        </h1>
+        <div class="site-header-link">
+          <a href="https://github.com/JoelEncinas"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://codepen.io/JoelEncinasMartin"
+            ><i class="fab fa-codepen"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+
+    <section class="fcc-intro">
+      <div class="container">
+        <h2>What you learn at FCC?</h2>
         <p>
-          This site will be used to show my FCC projects. You can visit
-          <a href="https://www.freecodecamp.com">FreeCodeCamp</a> if you want to
-          learn more about them.
+          FCC aims at giving a full-stack foundation. You first learn the core
+          of HTML5 &amp; CSS3 to follow it by a strong foundation of JavaScript
+          and it's frameworks. You can scroll down to check the projects.
         </p>
-      </header>
-      <!-- header -->
+      </div>
+    </section>
 
-      <main>
-        <section class="projects">
-          <h2>Responsive Web Design</h2>
-
-          <div class="projects-wrapper">
-            <div class="project">
-              <h3>Product Landing Page</h3>
-              <a
-                class="demo-btn"
-                href="https://codepen.io/JoelEncinasMartin/pen/wvvggKy"
-                target="_blank"
-                >Demo</a
-              >
-            </div>
-            <!-- project -->
-
-            <div class="project">
-              <h3>Personal Portfolio</h3>
-              <a
-                class="demo-btn"
-                href="https://codepen.io/JoelEncinasMartin/pen/dyyNRpp"
-                target="_blank"
-                >Demo</a
-              >
-            </div>
-            <!-- project -->
-
-            <div class="project">
-              <h3>Technical Documentation</h3>
-              <a
-                class="demo-btn"
-                href="https://codepen.io/JoelEncinasMartin/pen/BaaQPgb"
-                target="_blank"
-                >Demo</a
-              >
-            </div>
-            <!-- project -->
-
-            <div class="project">
-              <h3>Tribute Page</h3>
-              <a
-                class="demo-btn"
-                href="https://codepen.io/JoelEncinasMartin/pen/OJJbgOo"
-                target="_blank"
-                >Demo</a
-              >
-            </div>
-            <!-- project -->
-
-            <div class="project">
-              <h3>Survey Form</h3>
-              <a
-                class="demo-btn"
-                href="https://codepen.io/JoelEncinasMartin/pen/VwwmzMq"
-                target="_blank"
-                >Demo</a
-              >
-            </div>
-            <!-- project -->
+    <main class="site-main">
+      <div class="container">
+        <div class="row">
+          <h3 id="responsive">Responsive Web Design</h3>
+          <div class="project">
+            <a
+              class="project-link"
+              href="https://codepen.io/JoelEncinasMartin/pen/OJJbgOo"
+              target="_blank"
+            >
+              Tribute Page
+            </a>
           </div>
-          <!-- projects-wrapper -->
-        </section>
-        <!-- projects -->
-      </main>
-      <!-- main -->
-    </div>
-    <!-- container-75 -->
+
+          <div class="project">
+            <a
+              class="project-link"
+              href="https://codepen.io/JoelEncinasMartin/pen/wvvggKy"
+              target="_blank"
+            >
+              Landing Page
+            </a>
+          </div>
+
+          <div class="project">
+            <a
+              class="project-link"
+              href="https://codepen.io/JoelEncinasMartin/pen/VwwmzMq"
+              target="_blank"
+            >
+              Survey Form
+            </a>
+          </div>
+
+          <div class="project">
+            <a
+              class="project-link"
+              href="https://codepen.io/JoelEncinasMartin/pen/BaaQPgb"
+              target="_blank"
+            >
+              Technical Documentation
+            </a>
+          </div>
+
+          <div class="project">
+            <a
+              class="project-link"
+              href="https://codepen.io/JoelEncinasMartin/pen/dyyNRpp"
+              target="_blank"
+            >
+              Personal Portfolio
+            </a>
+          </div>
+        </div>
+        <!-- fcc-block -->
+
+        <div class="row">
+          <h3 id="javascript">Js Algorithms &amp; Data Structures</h3>
+          <div class="project"></div>
+        </div>
+        <!-- fcc-block -->
+
+        <div class="row">
+          <h3 id="frontend">Front End Libraries</h3>
+          <div class="project">
+            <a
+              class="project-link"
+              href="https://codepen.io/JoelEncinasMartin/pen/pooQByw"
+              target="_blank"
+            >
+              Random Quote Machine
+            </a>
+          </div>
+
+          <div class="project">
+            <a
+              class="project-link"
+              href="https://codepen.io/JoelEncinasMartin/pen/MWWPzvJ"
+              target="_blank"
+            >
+              JavaScript Calculator
+            </a>
+          </div>
+        </div>
+        <!-- fcc-block -->
+
+        <div class="row">
+          <h3 id="data">Data Visualization</h3>
+          <div class="project"></div>
+        </div>
+        <!-- fcc-block -->
+
+        <div class="row">
+          <h3 id="apis">APIs &amp; Microservices</h3>
+          <div class="project"></div>
+        </div>
+        <!-- fcc-block -->
+
+        <div class="row">
+          <h3 id="security">Information Security &amp; Quality Assurance</h3>
+          <div class="project"></div>
+        </div>
+        <!-- fcc-block -->
+
+        <div class="row">
+          <h3 id="extra">Additional Proposed Projects</h3>
+          <div class="project">
+            <a
+              class="project-link"
+              href="https://codepen.io/JoelEncinasMartin/pen/bGGmVYE"
+              target="_blank"
+            >
+              Local Weather App
+            </a>
+          </div>
+        </div>
+        <!-- fcc-block -->
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        Made by <a href="https://github.com/JoelEncinas">myself</a> with
+        <i class="fas fa-heart"></i>
+      </p>
+    </footer>
   </body>
 </html>
